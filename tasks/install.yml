@@ -1,0 +1,10 @@
+---
+ - name: install web server packages
+   tags: apache,apache2,centos,httpd,ubuntu
+   package:
+     name:
+       - "{{ Apache package name }}"
+       - "{{ Php package name }}"
+     state: latest
+   when: ansible_distribution == "CentOS"
+   notify: restart_apache

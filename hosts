@@ -18,7 +18,7 @@
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 
 #[webservers]
-b      bg hnnnnnnnnnnnnnnnnnnnnnnnnnnnhhhhhhhhhhhh   gnhhhhhhhhhhhhhhhhhhhhhhhhhhu                                            
+                                         
 172.31.27.183
 172.31.23.179
 

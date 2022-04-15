@@ -1,0 +1,7 @@
+---
+ - name: start and enable apache
+   tags: apache,centos,httpd
+   service:
+     name: "Template:Apache service"
+     state: started
+     enabled: yes
